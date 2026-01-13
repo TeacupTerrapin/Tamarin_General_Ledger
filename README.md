@@ -5,7 +5,13 @@
 - Double Entry Accounting
 - Supports multiple ledgers
 - Account rollup / hierarchy for reporting
-- Basic financial reports: Balance Sheet, Income Statement, Cash Flow Statement, Trial Balance, Chart of Accounts, GL Detail Report
+- Basic financial reports:
+  - Balance Sheet
+  - Income Statement
+  - Cash Flow Statement
+  - Trial Balance
+  - Chart of Accounts
+  - GL Detail Report
 - Supports subledgers like Trade Payables, Trade Receivables, Fixed Assets, Inventory
 - User-configurable fiscal year
 - Supports 12 or 13 annual accounting periods
