@@ -1,7 +1,8 @@
 # Tamarin General Ledger
-## Lightweight, extensible accounting Engine
+## Extensible accounting Engine
+*Light footprint, primary focus on maintaining data integrity, straightforward API*
 
-*Features:*
+__Features:__
 - Double Entry Accounting
 - Supports multiple ledgers
 - Account rollup / hierarchy for reporting
@@ -18,7 +19,7 @@
 - Closing a period summarizes balances for faster reporting
 - Configurable autonumbering and transaction prefixes (e.g. INV10001, INV10002, etc.)
 
-*Architecture:*
+__Architecture:__
 - Stores debits as positive numbers, credits as negative numbers:  this applies to *all* GL accounts
 - enforces *debit+credit=0* integrity
 - Currency precision is user configurable (values stores as integers, no use of Decimal module)
